@@ -4,6 +4,7 @@
 #include <QWidget>
 #include "ui_chessboard.h"
 #include "chessboardmap.h"
+
 class ChessBoard : public QWidget
 {
 	Q_OBJECT

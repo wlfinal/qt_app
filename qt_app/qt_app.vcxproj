@@ -137,8 +137,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AIengine.cpp" />
+    <ClCompile Include="Cboard.cpp" />
     <ClCompile Include="chessboard.cpp" />
     <ClCompile Include="chessboardmap.cpp" />
+    <ClCompile Include="Cpattern.cpp" />
+    <ClCompile Include="CTpattern.cpp" />
+    <ClCompile Include="Engine_debug.cpp" />
+    <ClCompile Include="Game_tree.cpp" />
+    <ClCompile Include="Game_tree2.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_chessboard.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -165,8 +172,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Hashitem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="qt_app.cpp" />
+    <ClCompile Include="Search_tree.cpp" />
+    <ClCompile Include="VCT_tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="qt_app.h">
@@ -209,6 +219,12 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AIengine.h" />
+    <ClInclude Include="Cboard.h" />
+    <ClInclude Include="Cpattern.h" />
+    <ClInclude Include="Ctype.h" />
+    <ClInclude Include="Hashitem.h" />
+    <ClInclude Include="Header.h" />
     <CustomBuild Include="chessboard.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing chessboard.h...</Message>

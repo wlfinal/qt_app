@@ -31,7 +31,7 @@ private:
 
 	int AlphaBeta(int depth, int alpha, int beta);
 	int Evaluate();
-	GenerateLegalMoves();
+	//GenerateLegalMoves();
 };
 
 struct Chessman{

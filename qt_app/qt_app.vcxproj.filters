@@ -33,6 +33,21 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Source Files\AI_Engine">
+      <UniqueIdentifier>{183b86a4-6983-49f1-ab66-88080d05938e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine_API">
+      <UniqueIdentifier>{7e3c0cde-cb28-49d2-8a29-2fc247c241e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI_Common">
+      <UniqueIdentifier>{0d2a771c-e07b-4832-9fa9-08309908861b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI_Engine">
+      <UniqueIdentifier>{511ebf1f-7261-4eb7-bce1-25c41dcf8525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI_Common">
+      <UniqueIdentifier>{f88320a0-d99d-4ca2-969e-71fc4f7fe460}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -62,6 +77,36 @@
     <ClCompile Include="chessboardmap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Hashitem.cpp">
+      <Filter>Source Files\AI_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CTpattern.cpp">
+      <Filter>Source Files\AI_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpattern.cpp">
+      <Filter>Source Files\AI_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AIengine.cpp">
+      <Filter>Source Files\Engine_API</Filter>
+    </ClCompile>
+    <ClCompile Include="Search_tree.cpp">
+      <Filter>Source Files\AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_tree2.cpp">
+      <Filter>Source Files\AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_tree.cpp">
+      <Filter>Source Files\AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_debug.cpp">
+      <Filter>Source Files\AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Cboard.cpp">
+      <Filter>Source Files\AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="VCT_tree.cpp">
+      <Filter>Source Files\AI_Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="qt_app.h">
@@ -89,6 +134,24 @@
     </ClInclude>
     <ClInclude Include="chessboardmap.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIengine.h">
+      <Filter>Header Files\AI_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Cboard.h">
+      <Filter>Header Files\AI_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Hashitem.h">
+      <Filter>Header Files\AI_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctype.h">
+      <Filter>Header Files\AI_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpattern.h">
+      <Filter>Header Files\AI_Common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

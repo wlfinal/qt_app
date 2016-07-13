@@ -67,7 +67,7 @@ bool ChessBoardMap::isWin(int x, int y){
 	return false;
 }
 
-
+/*
 int ChessBoardMap::AlphaBeta(int depth, int alpha, int beta) {
 	if (depth == 0) {
 		return Evaluate();
@@ -87,6 +87,6 @@ int ChessBoardMap::AlphaBeta(int depth, int alpha, int beta) {
 	return alpha;
 }
 
-
+*/
 
 

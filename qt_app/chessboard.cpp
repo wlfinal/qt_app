@@ -7,6 +7,7 @@ ChessBoard::ChessBoard(QWidget *parent)
 	: QWidget(parent)
 {
 	ui.setupUi(this);
+
 }
 
 ChessBoard::~ChessBoard()
@@ -65,7 +66,7 @@ void ChessBoard::mousePressEvent(QMouseEvent *e){
 	int maxWidth = width();
 	int maxHeigth = height();
 
-	int step = std::min(maxHeigth, maxWidth) / ChessBoardMap::MAXN;
+	int step = std::min(maxHeigth,maxWidth) / ChessBoardMap::MAXN;
 	int halfStep = step >> 1;
 	int sumStep = step*(ChessBoardMap::MAXN - 1);
 	int maxn = ChessBoardMap::MAXN;
